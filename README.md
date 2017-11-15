@@ -16,3 +16,5 @@ Luego hice un script en PHP al que le pasé ese código fuente como una cadena d
 Para finalmente iterar en ella y sacar todas las fechas.
 Luego a ese listado de fechas le di el formato necesario para que un array llamado feriados en la posición de esa fecha sea true. Entonces cada vez que se le consulta por si una fecha es día hábil, primero ve que si es sábado o domingo y luego si ha sido seteada la posición del arrgeglo feriados.
 Una vez que tuve el arreglo lista, eliminé a mano las fechas que son feriados en otras regiones que no sean la Metropolitana. Pero eran solamente 31, así que decidí no gastar tiempo en hacer un script.
+
+Si se ingresa una fecha que no pertenezca al rango de los años 2011 y 2020 los días hábiles van a ser todos menos los sábados y domingos.

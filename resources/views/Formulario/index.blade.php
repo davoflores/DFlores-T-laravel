@@ -11,13 +11,13 @@
 		<input type="hidden" name="cantidad" id="cantidad">
 
 
-		<button onclick="agregar()" type="button">Agregar fecha</button>
-		<button onclick="quitar()" type="button">Quitar fecha</button>
+		<button onclick="agregar()" type="button" id="agregarbtn">Agregar fecha</button>
+		<button onclick="quitar()" type="button" id="quitarbtn">Quitar fecha</button>
 
 
 		<div id="formularioTionvel"></div>
 
-		<button type="submit">Procesar</button>
+		<button type="submit" id="procesar">Procesar</button>
 
 	</form>
 
